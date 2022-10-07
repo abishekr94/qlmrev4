@@ -1,0 +1,451 @@
+/* Media Queries
+-------------------------------------------------------------- */
+
+@media only screen and (max-width: 1565px) {
+  #site-logo-inner {
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+  }
+
+  #site-header-right .header-search {
+    margin-right: 40px;
+  }
+}
+
+/* Smaller than standard 1200 */
+@media only screen and (max-width: 1199px) {
+  #site-header .mobile-button {
+    display: block;
+    z-index: 200;
+  }
+
+  #site-header #main-nav,
+  .swiper-button-next.btn-slide-next,
+  .swiper-button-prev.btn-slide-prev {
+    display: none;
+  }
+
+  #site-header-right .button-header,
+  .top-bar-left .mail,
+  .top-bar-right .socials-header {
+    display: none !important;
+  }
+
+  .qlm-slider .slider-right,
+  .qlm-slider .slider-left {
+    width: 50%;
+  }
+
+  #site-logo {
+    width: 30%;
+  }
+
+  #site-logo-inner {
+    height: 70px;
+  }
+
+  #site-logo-inner .main-logo {
+    padding-right: 0;
+    padding-left : 0;
+  }
+
+  #site-header-right {
+    right: 40px;
+  }
+
+  .qlm-slider .slider-left-content h2 {
+    font-size  : 50px;
+    line-height: 50px;
+  }
+
+  .qlm-slider .slider-left {
+    margin: 40px 0;
+  }
+
+  .qlm-wcu .contact-request {
+    transform: translateY(40%);
+  }
+
+  .qlm-latest .latest-content-box .latest-content {
+    padding: 20px 0 20px 0px;
+  }
+
+  .qlm-service .service-box .service-content {
+    padding: 15px;
+  }
+
+  .qlm-contact-request .contact-request-content {
+    bottom: -200px;
+  }
+
+  .qlm-faq-contact .faq-contact-form .name-wrap,
+  .qlm-faq-contact .faq-contact-form .email-wrap,
+  .qlm-faq-contact .faq-contact-form .phone-wrap,
+  .qlm-faq-contact .faq-contact-form .subject-wrap {
+    width: 47.3%;
+  }
+
+  .qlm-contact .contact-icon-box {
+    padding: 25px 15px;
+  }
+
+  .qlm-testimonial .swiper-container.slider-vertical .qlm-quote {
+    height  : 420px;
+}
+
+}
+
+/* Smaller than standard 992 */
+@media only screen and (max-width: 991px) {
+
+  .qlm-features,
+  .qlm-about .about-right-content,
+  .qlm-our-ex,
+  .qlm-progress,
+  .qlm-subcribe,
+  .qlm-latest .latest-content-wrap p,
+  .qlm-latest .latest-content-wrap,
+  .qlm-about-2,
+  .qlm-service,
+  .qlm-team-3,
+  .qlm-testimonial-2,
+  .qlm-faq-contact,
+  .qlm-portfolio-news,
+  .qlm-wcu .section-title p,
+  .qlm-skill .about-left-content p,
+  .qlm-latest,
+  .qlm-service-details,
+  .qlm-portfolio-details .main-content .post-media  {
+    margin-top: 12%;
+    padding: 0;
+    margin-bottom: 4%;
+  }
+
+  
+  .qlm-about {
+    margin-bottom: 1%;
+  }
+
+  .qlm-about .about-left-content,
+  .qlm-service .service-content-right,
+  .qlm-progress .progress-content-left,
+  #footer .menu-3 {
+    padding: 0;
+  }
+
+  .tf-space, .qlm-latest {
+    padding: 0 6px 0 6px;
+  }
+
+  .qlm-portfolio-news {
+    margin-top: -60px;
+  }
+
+  #footer-top .footer-schedule {
+    padding: 0 20px;
+  }
+
+  #footer-top .footer-schedule h2 {
+    font-size: 27px;
+  }
+
+  #footer .footer-widgets-nav-menu,
+  .qlm-latest .latest-content-bottom {
+    flex-wrap: wrap;
+  }
+
+  .swiper-button-prev.btn-custom-carousel-prev,
+  .swiper-button-next.btn-custom-carousel-next {
+    display: none;
+  }
+
+  .qlm-contact .contact-icon-box .icon {
+    float: unset;
+  }
+
+  #footer .menu-1,
+  #footer .menu-2,
+  .tf-col-4 {
+    width: 50%;
+  }
+
+  #footer .menu-3,
+  .qlm-team .team-content-box .team-post img {
+    width: 100%;
+  }
+
+  .qlm-features .features-box {
+    margin: 0 10px;
+  }
+
+  .qlm-blog .post-content-wrap {
+    padding: 15px;
+  }
+
+  .qlm-contact .contact-form {
+    padding: 30px;
+  }
+
+  .qlm-blog .post-content-wrap .post-title {
+    padding-left : 15px;
+    margin-bottom: 10px;
+  }
+
+  .recent-news .texts span {
+    font-size  : 10px;
+    line-height: 15px;
+  }
+
+  .qlm-slider .button-slider {
+    display: inline-grid;
+  }
+
+  .section-title h2 {
+    font-size: 20px;
+    margin-top: 2%;
+  }
+
+  .section-title h3.section-heading {
+    font-size: 16px;
+    margin-bottom: 4px;
+    margin-top: 0;
+  }
+
+  .section-title {
+    margin-bottom: 0px;
+  } 
+
+  .qlm-skill .section-title h2 { 
+    margin-bottom: 0px;
+    margin-top: 16px;
+    height: 26px;
+  }
+
+  .button {
+    line-height: 22px;
+  }
+
+  .about-left-content {
+    margin-top: 16px;
+  }
+
+  .qlm-latest .latest-content-box .latest-content {
+    padding: 10px 0 0px 0px;
+  }
+
+  .qlm-contact-request .section-title h2 {
+    font-size: 28px;
+  }
+
+  .qlm-our-ex {
+    background-size: contain;
+  }
+
+  .qlm-subcribe .subcribe-content-right .subcribe-post img {
+    transform  : translateY(60px);
+    margin-left: -40px;
+  }
+
+  .qlm-latest .latest-content-box .latest-content {
+    border-bottom: none;
+  }
+
+  .qlm-latest .latest-content-bottom .post-readmore {
+    margin-bottom: 10px;
+  }
+
+  .qlm-latest .latest-content-wrap p,
+  .qlm-counter .about-counter-inner,
+  .qlm-skill .about-left-content p {
+    margin-bottom: 30px;
+  }
+
+  .recent-news .texts {
+    margin-top: 10px;
+  }
+
+  .qlm-service .service-content-right,
+  .qlm-contact-request .contact-request-content {
+    margin-top: 20px;
+  }
+
+  .qlm-about-2 .about-2-content-left .button-contact {
+    margin-top: 30px;
+  }
+
+  .qlm-contact-request .contact-request-form button {
+    padding: 16px 15px;
+  }
+
+  .qlm-contact-request .contact-request-content {
+    position: unset;
+  }
+
+  .qlm-service-details .side-bar .brochures li {
+    padding: 18px 10px;
+  }
+
+  .qlm-service-details .side-bar .brochures li a {
+    font-size: 15px;
+  }
+
+  .qlm-service-details .post-inner .work-process li {
+    margin-right: 20px;
+  }
+
+  .qlm-faq-contact .faq-contact-form .name-wrap,
+  .qlm-faq-contact .faq-contact-form .email-wrap,
+  .qlm-faq-contact .faq-contact-form .phone-wrap,
+  .qlm-faq-contact .faq-contact-form .subject-wrap {
+    width: 46.3%;
+  }
+
+  .qlm-portfolio-details .post-media .content {
+    width: 350px;
+  }
+
+  .qlm-portfolio-details .post-media .content .top,
+  .qlm-portfolio-details .post-media .content .list li {
+    padding: 10px 30px;
+  }
+
+  .tf-map .inner {
+    height: 400px;
+  }
+
+  .qlm-our-ex .our-ex-box.view-all-project .button,
+   .qlm-our-ex .our-ex-box .button {
+    left: 10%;
+    right: 10%;
+  }
+  .qlm-accordion .qlm-toggle .toggle-title {
+    padding: 24px 15px;
+  }
+
+  /* --------------------------------end */
+}
+
+/* All Mobile Sizes */
+@media only screen and (max-width: 767px) {
+  #footer-top .footer-schedule {
+    justify-content: center;
+  }
+
+  #footer .menu-1,
+  #footer .menu-2,
+  .qlm-features .features-content-right,
+  .qlm-our-ex .our-ex-content-right,
+  .qlm-subcribe .subcribe-content,
+  .qlm-faq .faq-title-box .section-title p,
+  .qlm-service-details .post-inner .work-process li {
+    padding: 0;
+  }
+
+  #footer {
+    padding: 60px 0;
+  }
+
+  .testimonial-content-right {
+    margin-block-start: 30px;
+  }
+
+  #footer .menu-1,
+  #footer .menu-2,
+  .qlm-features .features-content-right,
+  .qlm-our-ex .our-ex-content-right {
+    padding: 15px 0;
+  }
+
+  #footer .menu-1,
+  #footer .menu-2,
+  .qlm-blog .post-content-archive,
+  .qlm-slider .slider-left,
+  .qlm-features .features-content-left,
+  .qlm-features .features-content-right,
+  .qlm-faq-contact .faq-contact-form .name-wrap,
+  .qlm-faq-contact .faq-contact-form .email-wrap,
+  .qlm-faq-contact .faq-contact-form .phone-wrap,
+  .qlm-faq-contact .faq-contact-form .subject-wrap,
+  .qlm-portfolio-details .post-media .content,
+  .tf-col-4,
+  .tf-col-6 {
+    width: 100%;
+  }
+
+  .qlm-slider .slider-left {
+    margin: 60px 0;
+  }
+
+  .qlm-latest .latest-content-box {
+    margin: 18px 0 0 0;
+  }
+
+  .qlm-features .carousel {
+    padding: 20px 0;
+  }
+
+  #top-bar,
+  .qlm-slider .slider-right,
+  .features-bullet {
+    display: none;
+  }
+
+  #site-logo {
+    width      : 64%;
+    line-height: 80px;
+  }
+
+  .qlm-faq-contact .faq-contact-form {
+    padding: 30px;
+  }
+
+  .qlm-wcu .contact-request {
+    transform: translateY(7%);
+  }
+
+  .qlm-wcu {
+    background-position: right;
+  }
+
+  .qlm-skill {
+    background-position: left;
+  }
+
+  .qlm-about-2 .about-2-content-right {
+    margin-top: 50px;
+  }
+
+  .qlm-contact .title {
+    margin-top: 20px;
+  }
+
+  .qlm-portfolio .qlm-filter-isotope {
+    flex-wrap: wrap;
+  }
+
+  .qlm-portfolio .qlm-filter-isotope li,
+  #footer .footer-schedule .button-footer {
+    margin-bottom: 20px;
+  }
+
+  .qlm-portfolio-details .post-media .content {
+    position     : unset;
+    border-radius: unset;
+  }
+
+  .qlm-contact .contact-icon-box .icon {
+    float: left;
+  }
+  .top-search.show {
+    top: 53px;
+    right: -40px;
+  }
+
+  .qlm-memsignin-sec1 a {
+    margin: 1px 0 16px 16px;
+  }
+
+  #comments .comment-reply-box {
+    margin-left: 10%;
+}
+  /* ------------------------------------------ */
+}
