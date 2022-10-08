@@ -40,7 +40,7 @@
   }
 
   #site-logo-inner {
-    height: 70px;
+    height: 80px;
   }
 
   #site-logo-inner .main-logo {
@@ -123,6 +123,7 @@
   
   .qlm-about {
     margin-bottom: 1%;
+    padding: 5px 0 48px 0;
   }
 
   .qlm-about .about-left-content,
@@ -133,7 +134,7 @@
   }
 
   .tf-space, .qlm-latest {
-    padding: 0 6px 0 6px;
+    padding: 0 6px 8px 6px;
   }
 
   .qlm-portfolio-news {
@@ -145,12 +146,20 @@
   }
 
   #footer-top .footer-schedule h2 {
-    font-size: 27px;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    padding-top: 22px;
+  }
+
+  #footer-top .footer-schedule h2::after {
+    display: none;
   }
 
   #footer .footer-widgets-nav-menu,
   .qlm-latest .latest-content-bottom {
     flex-wrap: wrap;
+    margin-top: 40px;
   }
 
   .swiper-button-prev.btn-custom-carousel-prev,
@@ -206,7 +215,7 @@
 
   .section-title h3.section-heading {
     font-size: 16px;
-    margin-bottom: 4px;
+    margin-bottom: 14px;
     margin-top: 0;
   }
 
@@ -220,8 +229,8 @@
     height: 26px;
   }
 
-  .button {
-    line-height: 22px;
+  .btn-readmore {
+    line-height: 100px;
   }
 
   .about-left-content {
@@ -229,7 +238,7 @@
   }
 
   .qlm-latest .latest-content-box .latest-content {
-    padding: 10px 0 0px 0px;
+    padding: 10px 0 10px 0px;
   }
 
   .qlm-contact-request .section-title h2 {
@@ -242,7 +251,7 @@
 
   .qlm-subcribe .subcribe-content-right .subcribe-post img {
     transform  : translateY(60px);
-    margin-left: -40px;
+    margin-left: 0;
   }
 
   .qlm-latest .latest-content-box .latest-content {

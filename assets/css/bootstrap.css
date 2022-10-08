@@ -6,39 +6,9 @@
  */
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 
-@font-face {
-  font-family: "izmir-light";
-  src: url(/assets/font/izmir/izmir-light.otf);
-}
-
-@font-face {
-  font-family: "izmir-regular";
-  src: url(/assets/font/izmir/izmir-regular.otf);
-}
-
-@font-face {
-  font-family: "izmir-bold";
-  src: url(/assets/font/izmir/izmir-bold.otf);
-}
-
-@font-face {
-  font-family: "HKConcentratePro-Regular";
-  src: url(/assets/font/HKConcentratePro-Regular.otf);
-}
-
-@font-face {
-  font-family: "URWGeometricArabic-Light";
-  src: url(/assets/font/urw/URWGeometricArabic-Light.ttf);
-}
-
-@font-face {
-  font-family: "URWGeometricArabic-Bold";
-  src: url(/assets/font/urw/URWGeometricArabic-Bold.ttf);
-}   
-
 
 html {
-  font-family: 'izmir-regular',sans-serif;
+  font-family: 'Mont-Regular',sans-serif;
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;

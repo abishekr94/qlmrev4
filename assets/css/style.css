@@ -249,8 +249,8 @@ img {
 
 p {
     font-family: 'HKConcentratePro-Regular', sans-serif;
-    font-size  : 16px;
-    line-height: 24px;
+    font-size  : 18px;
+    line-height: 26px;
 }
 
 strong,
@@ -1076,6 +1076,10 @@ h6 a {
     padding-right: 100px;
 }
 
+.margin-top-80 {
+    margin-top: 80px;
+}
+
 .margin-top-55 {
     margin-top: 55px;
 }
@@ -1363,8 +1367,12 @@ h6 a {
     padding: 80px 0;
 }
 
+.tf-space-appointment {
+    padding: 42px 0 ;
+}
+
 .tf-space-why {
-    padding: 180px 0 180px 0;
+    padding: 142px 0 80px 0;
 }
 
 .tf-space-claims {
@@ -1376,7 +1384,11 @@ h6 a {
 }
 
 .tf-space-c {
-    padding: 10px 0;
+    padding: 10px 10px;
+}
+
+.tf-space-d {
+    padding: 40px 10px;
 }
 
 
@@ -1516,7 +1528,7 @@ a:focus {
 -------------------------------------------------------------- */
 
 .section-14px-regular {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Mont-Semibold', sans-serif;
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0;
@@ -1525,10 +1537,10 @@ a:focus {
 
 .section-14px-regular-rubik {
     font-size     : 14px;
-    font-family   : 'rubik', sans-serif;
+    font-family: 'Mont-Regular', sans-serif;
     letter-spacing: 0;
     font-weight   : 400;
-    line-height   : 30px;
+    line-height   : 42px;
 }
 
 .section-16px-regular {
@@ -1560,7 +1572,7 @@ a:focus {
 
 .section-22px-barlow {
     font-size     : 22px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Mont-Semibold', sans-serif;
     letter-spacing: 0;
     font-weight   : 700;
     line-height   : 32px;
@@ -1581,17 +1593,16 @@ a:focus {
 
 .section-35px-barlow {
     font-size     : 35px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Mont-Semibold', sans-serif;
     letter-spacing: 0;
     font-weight   : 700;
     line-height   : 30px;
 }
 
 .section-40px-barlow {
-    font-size     : 40px;
-    font-family: 'Poppins', sans-serif;
+    font-size     : 26px;
+    font-family: 'Mont-Regular', sans-serif;
     letter-spacing: 0;
-    font-weight   : 700;
     line-height   : 60px;
 }
 
@@ -1619,7 +1630,7 @@ a:focus {
 :root {
     /* color */
     --primary-color : #8A1738;
-    --primary-color2: #3f826d;
+    --primary-color2: #555555;
     --primary-color3: #b4975a;
     --primary-color4: #555555;
     --primary-color5: #F7F7FF;
@@ -1910,7 +1921,7 @@ a:focus {
     display    : block;
     font-size  : 16px;
     color      : var(--primary-color6);
-    padding    : 20px 20px 20px 26px;
+    padding    : 18px 20px 18px 26px;
 }
 
 #main-nav .sub-menu li:not(:last-child) a {
@@ -1947,9 +1958,9 @@ a:focus {
     font-family       : 'Mont-SemiBold', sans-serif;
     display           : inline-block;
     font-size         : 18px;
-    font-weight       : 500;
     line-height       : 42px;
-    padding           : 0 60px 0 60px;
+    padding           : 0 36px 0 36px;
+    color: #FFFFFF;
     background-color  : var(--primary-color);
     border-radius: 26px;
     margin-right: 44px;
@@ -1980,7 +1991,7 @@ a:focus {
 
 #site-header-right .header-menu-help a,
 #site-header-right .header-search a {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Mont-Semibold', sans-serif;
     font-size: 16px;
     color: #1e1e1e;
     cursor   : pointer;
@@ -2027,7 +2038,7 @@ a:focus {
 
 #site-header-right .header-menu a,
 #site-header-right .header-search a {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Mont-Semibold', sans-serif;
     font-size: 16px;
     color: #1e1e1e;
     cursor   : pointer;
@@ -2396,7 +2407,7 @@ a:focus {
 .themesqlm-pagination ul li .page-numbers {
     display      : inline-block;
     font-size    : 14px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Mont-Semibold', sans-serif;
     font-weight  : 400;
     color        : #787878;
     text-align   : center;
@@ -2511,7 +2522,8 @@ a:focus {
     left            : 0;
     right           : 0;
     bottom          : 0;
-    background-color: #a2a3a5;
+    background-color: #d9d9d9;
+    border-top: 1px solid #1e1e1e15;
 }
 
 .qlm-title-page .breadcrumbs {
@@ -2531,6 +2543,8 @@ a:focus {
 
 .breadcrumbs .breadcrumb-trail>a,
 .breadcrumbs .breadcrumb-trail>span {
+    font-family: 'Mont-Semibold', sans-serif;
+    color: #1e1e1e;
     position     : relative;
     display      : inline-block;
     padding-right: 16px;
@@ -2547,7 +2561,7 @@ a:focus {
     content    : "\f105";
     font-family: 'FontAwesome';
     font-size  : 14px;
-    color      : #fff;
+    color      : #1e1e1e;
     line-height: normal;
     position   : absolute;
     right      : 0px;
@@ -2556,8 +2570,14 @@ a:focus {
 
 /* blog
 -------------------------------------------------------------- */
+
+.qlm-blog-home {
+    padding: 22px 0 72px 0;
+}
+
+
 .qlm-blog {
-    padding: 108px 0 72px 0;
+    padding: 22px 0 72px 0;
 }
 
 .qlm-blog .post-wrap {
@@ -2587,6 +2607,7 @@ a:focus {
 }
 
 .qlm-blog .post-media .post-media-tags {
+    font-family: 'Mont-Regular', sans-serif;
     position: absolute;
     top     : 31px;
     left    : 22px;
@@ -2640,7 +2661,7 @@ a:focus {
 
 .post-readmore .read-more,
 .qlm-latest .latest-content .read-more {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Mont-Semibold', sans-serif;
     display      : inline-block;
     line-height  : 38px;
     width        : 40px;
@@ -2718,11 +2739,13 @@ a:focus {
     bottom          : 0;
     left            : 0;
     width           : 100%;
-    height          : 0.5px;
-    background-color: #b01e36;
+    height          : 100%;
+    border-radius: 0 0 14px 14px;
+    background-color: #7a7a7a15;
     transform       : scale(0, 1);
     transform-origin: left center;
     transition      : transform 500ms ease;
+    z-index: -2;
 }
 
 .qlm-latest .latest-content::after {
@@ -3162,10 +3185,9 @@ a:focus {
 }
 
 .recent-news .texts a {
-    font-size         : 17px;
-    font-weight       : 500;
-    line-height       : 28px;
-    padding-bottom    : 8px;
+    font-family         : 'Mont-SemiBold', sans-serif;
+    font-size         : 14px;
+    line-height       : 22px;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     display           : -webkit-box;
@@ -3175,6 +3197,8 @@ a:focus {
 }
 
 .recent-news .texts span {
+    font-family         : 'Mont-Regular', sans-serif;
+    color: var(--primary-color);
     font-size  : 14px;
     line-height: 30px;
 }
@@ -3326,7 +3350,7 @@ a:focus {
 .qlm-service .section-title h2,
 .qlm-contact-request .section-title h2 {
     margin-top : 28px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Mont-Semibold', sans-serif;
     font-size  : 35px;
     line-height: 42px;
 }
@@ -3429,7 +3453,7 @@ a:focus {
 }
 
 .qlm-about .about-left-content {
-    padding-top: 0px;
+    padding: 0 44px;
 }
 
 .qlm-about .section-title {
@@ -3439,6 +3463,7 @@ a:focus {
 .qlm-about p {
     line-height  : 29px;
     margin-bottom: 28px;
+    font-size: 18px;
 }
 
 .progress-about {
@@ -3464,7 +3489,7 @@ a:focus {
     top        : 50%;
     left       : 50%;
     transform  : translate(-50%, -50%);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Mont-Semibold', sans-serif;
     font-size  : 24px;
     display    : inline-block;
     color      : var(--primary-color);
@@ -3475,7 +3500,7 @@ a:focus {
 }
 
 .progress-about .heading-progress {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Mont-Semibold', sans-serif;
     font-weight: 600;
     font-size  : 18px;
     line-height: 24px;
@@ -3544,8 +3569,7 @@ a:focus {
 .qlm-about-2 .about-2-content-right .about-counter-box .number-counter span,
 .qlm-counter .about-counter-inner .number-counter span {
     font-size  : 68px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-family: 'Mont-Semibold', sans-serif;
     color      : #fff;
 }
 
@@ -3563,7 +3587,8 @@ a:focus {
 }
 
 .qlm-counter .about-counter-inner .heading-count h3 {
-    font-size  : 16px;
+    font-family: 'Mont-Semibold',sans-serif;
+    font-size  : 18px;
     line-height: 24px;
 }
 
@@ -3640,7 +3665,7 @@ a:focus {
 
 .qlm-work .master-icon-box .text-wrap h3 {
     font-size    : 24px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Mont-Semibold', sans-serif;
     margin-bottom: 17px;
 }
 
@@ -3795,7 +3820,7 @@ a:focus {
 
 .qlm-our-ex .our-ex-box.view-all-project .button,
 .qlm-our-ex .our-ex-box .button {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Mont-Semibold', sans-serif;
     font-size    : 1.8rem;
     color     : #fff;
     border    : solid 1px #fff;
@@ -3910,6 +3935,7 @@ a:focus {
     background-repeat  : no-repeat;
     background-size    : cover;
     padding-bottom: 58px;
+    margin: 88px 0;
 }
 
 .qlm-skill .section-title h2 {
@@ -3919,6 +3945,7 @@ a:focus {
 .qlm-skill .about-left-content p {
     margin-bottom: 38px;
     margin-right: 50px;
+    font-size: 18px;
 }
 
 .qlm-skill .about-left-content .progress-about {
@@ -3950,7 +3977,7 @@ a:focus {
     position          : relative;
     overflow          : hidden;
     padding           : 19px 19px 42px 19px;
-    background-color  : #FFFFFF;
+    background-color  : rgb(247 247 247);
     border-radius     : 8px;
     -webkit-transition: all 0.3s ease;
     -moz-transition   : all 0.3s ease;
@@ -3966,12 +3993,14 @@ a:focus {
 }
 
 .qlm-team .team-content-box .team-info h4 {
+    font-family: 'Mont-Semibold', sans-serif;
+    color: var(--primary-color);
     margin     : 21px 0 7px 0;
-    font-size  : 18px;
-    font-weight: 500;
+    font-size  : 20px;
 }
 
 .qlm-team .team-content-box .team-info h5 {
+    font-family: 'Mont-Regular', sans-serif;
     font-size  : 15px;
     font-weight: 400;
 }
@@ -4045,25 +4074,26 @@ a:focus {
 /* qlm subcribe
 -------------------------------------------------------------- */
 .qlm-subcribe {
-    background-color: var(--primary-color);
+    background-color: rgb(248, 248, 248);
 }
 
 .qlm-subcribe .subcribe-content {
-    color        : #fff;
-    padding-right: 8.4%;
+    color        : #1e1e1e;
+    padding-left: 10%;
 }
 
 .qlm-subcribe .subcribe-content h3 {
-    font-family: 'Poppins', sans-serif;
-    font-size    : 20px;
-    margin-top: 16%;
+    font-family: 'Mont-Regular', sans-serif;
+    font-size    : 16px;
     margin-bottom: 15px;
+    margin-top: 16%;
+    vertical-align: middle;
 }
 
 .qlm-subcribe .subcribe-content h2 {
     font-size    : 40px;
-    font-family: 'Poppins', sans-serif;
-    margin-bottom: 30px;
+    font-family: 'Mont-Semibold', sans-serif;
+    margin-bottom: 16px;
 }
 
 .qlm-subcribe .subcribe-content .subcribe-form {
@@ -4167,7 +4197,7 @@ a:focus {
 }
 
 .qlm-testimonial .testimonial-slide-box .testimonal-content h3 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Mont-Semibold', sans-serif;
     font-size: 1.8rem;
     margin-bottom: 10px;
     color             : var(--primary-color);
@@ -4180,7 +4210,7 @@ a:focus {
 }
 
 .qlm-testimonial .testimonial-slide-box .testimonal-content p {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Mont-Semibold', sans-serif;
     font-size         : 1.5rem;
     line-height       : 20px;
     color             : #1e1e1e;
@@ -4287,7 +4317,8 @@ a:focus {
 }
 
 .qlm-latest .latest-content-wrap {
-    margin-top: -57px;
+    margin-top: 0;
+    padding: 0 0;
 }
 
 .qlm-latest .latest-content-wrap .features-content-left {
@@ -4302,7 +4333,7 @@ a:focus {
     position     : relative;
     z-index      : -1;
     overflow     : hidden;
-    border-radius: 16px;
+    border-radius: 14px 14px 0 0;
 }
 
 .qlm-latest .latest-post img {
@@ -4331,10 +4362,12 @@ a:focus {
 
 .qlm-latest .latest-content-box .latest-content {
     position        : relative;
-    padding         : 18px 18px;
-    border-radius   : 14px 14px 0px 0px;
-    background-color: rgba(239, 239, 239, 0);
+    padding         : 12px 18px;
+    border-radius   : 0 0 14px 14px;
+    background-color: rgb(239 239 239 / 47%);
     border-bottom: 1px solid #b01e3600;
+    text-align: center;
+    cursor: pointer;
 }
 
 .qlm-latest .latest-content a {
@@ -4342,7 +4375,7 @@ a:focus {
     font-weight: 600;
     font-size  : 1.6rem;
     line-height: 26px;
-    color: #1e1e1e
+    color: #1e1e1e;
 }
 
 .qlm-latest .latest-content a:hover {
@@ -5633,7 +5666,7 @@ a:focus {
     flex-wrap       : wrap;
     align-items     : center;
     justify-content : space-between;
-    background-color: #fff;
+    background-color: rgb(248, 248, 248);
     padding         : 0 62px;
     height          : 129px;
     border-radius   : 8px;
@@ -5660,7 +5693,7 @@ a:focus {
 }
 
 #footer-top .footer-schedule h2 {
-    color: var(--primary-color5);
+    color: #1e1e1e;
 }
 
 #footer-top .footer-schedule h2::after {
@@ -5761,7 +5794,7 @@ a:focus {
 
 #footer .menu-3 {
     width  : 100%;
-    padding: 15px 0px 10px 21px;
+    padding: 15px 0 10px 0;
 }
 
 #footer .footer-widgets-nav-menu .widget-title-link-wrap {
@@ -5783,7 +5816,7 @@ a:focus {
 
 #footer .menu-3 li {
     font-family: 'Mont-SemiBold', sans-serif;
-    font-size: 24px;
+    font-size: 22px;
     margin-bottom: 18px;
 }
 
@@ -5864,7 +5897,7 @@ a:focus {
     font-family   : 'FontAwesome';
     color         : #fff;
     margin-right  : 20px;
-    font-size     : 25px;
+    font-size     : 16px;
     vertical-align: middle;
 }
 
@@ -5892,7 +5925,7 @@ a:focus {
 
 #bottom {
     background-color: #aa1d38;
-    font-family: 'izmir-regular',sans-serif;
+    font-family: 'Mont-Semibold', sans-serif;
     font-size       : 16px;
     color           : #fff;
 }
@@ -6009,7 +6042,7 @@ a:focus {
 
 .qlm-memsignin-sec a {
     display: block;
-    font-family: 'HKConcentratePro-Medium', sans-serif;
+    font-family: 'Mont-SemiBold', sans-serif;
     font-size: 16px;
     margin: 0 0 0 22px;
     float: left;
@@ -6017,7 +6050,7 @@ a:focus {
 
 .qlm-memsignin-sec1 a {
     display: block;
-    font-family: 'HKConcentratePro-Medium', sans-serif;
+    font-family: 'Mont-SemiBold', sans-serif;
     font-size: 16px;
     margin: 0 0 16px 16px;
     margin-right: 3%;
@@ -6043,5 +6076,36 @@ a:focus {
     width: 100%;
 }
 
-/* Custom Icons Textfields
+/* Custom CSS
 -------------------------------------------------------------- */
+
+
+.code-timer {
+    display: flex;
+    font-family: 'Mont-SemiBold', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin: 0 0 16px 24px;
+}
+
+.code-timer > span {
+    color: var(--primary-color);
+    margin: 0 0 16px 4px;
+}
+
+.form-heading h3 {
+    font-family: 'Mont-SemiBold', sans-serif;
+    font-size: 22px;
+    color: var(--primary-color);
+    font-style: normal;
+    margin: 0 0 16px 22px;
+}
+
+.form-heading h4 {
+    font-family: 'Mont-SemiBold', sans-serif;
+    font-size: 16px;
+    color: var(--primary-color);
+    font-style: normal;
+    margin: 0 0 16px 24px;
+}

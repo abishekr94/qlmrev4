@@ -59,10 +59,10 @@
   font-family: "Mont-SemiBold";
   margin-top      : 1%;
   font-size       : 18px;
-  padding         : 12px 28px 12px 28px;
+  padding         : 10px 28px;
   background-color: #ffffff;
   border          : 1px solid var(--primary-color);
-  border-radius   : 18px;
+  border-radius   : 58px;
   color           : var(--primary-color);
   min-width       : 94px;
 }
@@ -868,4 +868,49 @@ a.side-menu__toggler-help.side-menu__close-btn {
   font-size: 18px;
   color: #1e1e1e;
   margin: 10px 0;
+}
+
+.btn-whatsapp {
+  font-family     : "Mont-SemiBold";
+  margin-top      : 1%;
+  font-size       : 16px;
+  padding         : 12px 28px 12px 28px;
+  background-color: #25D366;
+  border-radius   : 58px;
+  min-width       : 94px;
+  color: #1e1e1e;
+  padding           : 16px 30px 16px 30px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition   : all 0.3s ease;
+  -ms-transition    : all 0.3s ease;
+  -o-transition     : all 0.3s ease;
+  transition        : all 0.3s ease;
+}
+
+.btn-whatsapp:hover {
+  background-color: #1e1e1e;
+  color           : #FFFFFF;
+}
+
+
+.btn-readmore {
+  font-family     : "Mont-SemiBold";
+  margin-top      : 1%;
+  font-size       : 16px;
+  padding         : 12px 28px 12px 28px;
+  background-color: var(--primary-color);
+  border-radius   : 48px;
+  min-width       : 94px;
+  color: #FFFFFF;
+  padding           : 16px 30px 16px 30px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition   : all 0.3s ease;
+  -ms-transition    : all 0.3s ease;
+  -o-transition     : all 0.3s ease;
+  transition        : all 0.3s ease;
+}
+
+.btn-readmore:hover {
+  background-color: #1e1e1e;
+  color           : #FFFFFF;
 }
