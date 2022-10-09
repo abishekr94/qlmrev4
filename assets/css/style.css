@@ -1364,11 +1364,11 @@ h6 a {
 }
 
 .tf-space {
-    padding: 80px 0;
+    padding: 10px 0;
 }
 
 .tf-space-appointment {
-    padding: 42px 0 ;
+    padding: 0 0 ;
 }
 
 .tf-space-why {
@@ -3935,7 +3935,7 @@ a:focus {
     background-repeat  : no-repeat;
     background-size    : cover;
     padding-bottom: 58px;
-    margin: 88px 0;
+    margin: 48px 0;
 }
 
 .qlm-skill .section-title h2 {
@@ -4495,11 +4495,11 @@ a:focus {
 /* qlm counter
 -------------------------------------------------------------- */
 .qlm-counter {
-    padding            : 116px 0;
-    background-image   : url(../images/mark-page/mark-counter.jpg);
+    padding            : 6px 0;
     background-position: center;
     background-repeat  : no-repeat;
     background-size    : cover;
+    margin-bottom: 6%;
 }
 
 .qlm-counter .about-counter-inner {
