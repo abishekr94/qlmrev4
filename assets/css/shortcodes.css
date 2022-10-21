@@ -174,7 +174,7 @@
 .section-heading {
   font-family   : 'HKConcentratePro-Medium', sans-serif;
   font-size     : 1.6rem;
-  border-left   : 3px solid var(--primary-color);
+  border-left   : 3px solid var(--primary-color3);
   padding-left  : 22px;
   margin-bottom : 30px;
 }
