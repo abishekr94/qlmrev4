@@ -16,8 +16,6 @@
 /* button */
 .button {
   font-size         : 16px;
-  color             : var(--primary-color);
-  border            : 1px solid var(--primary-color);
   border-radius     : 16px;
   line-height       : 34px;
   padding           : 16px 30px 16px 30px;
@@ -26,11 +24,6 @@
   -ms-transition    : all 0.3s ease;
   -o-transition     : all 0.3s ease;
   transition        : all 0.3s ease;
-}
-
-.button:hover {
-  border          : 1px solid #000;
-  color           : rgb(0, 0, 0);
 }
 
 .btn-style2 {
@@ -60,17 +53,15 @@
   margin-top      : 1%;
   font-size       : 18px;
   padding         : 10px 28px;
-  background-color: #ffffff;
-  border          : 1px solid var(--primary-color);
+  background-color: var(--primary-color);
   border-radius   : 58px;
-  color           : var(--primary-color);
+  color           : #FFFFFF;
   min-width       : 94px;
 }
 
 .btn-style4:hover {
-  background-color: #8a1738;
-  color           : #FFFFFF;
-  border          : 1px solid var(--primary-color);
+  background-color: var(--primary-color2);
+  color           : #ffffff;
 }
 
 .btn-style5 {
@@ -78,17 +69,15 @@
   margin          : 1% 0% 0% 3%;
   font-size       : 14px;
   padding         : 8px;
-  background-color: #ffffff;
-  border          : 1px solid var(--primary-color);
-  border-radius   : 18px;
-  color           : var(--primary-color);
+  background-color: var(--primary-color);
+  border-radius   : 58px;
+  color           : #FFFFFF;
   min-width       : 132px;
 }
 
 .btn-style5:hover {
-  background-color: #8a1738;
+  background-color: var(--primary-color2);
   color: #FFFFFF;
-  border          : 1px solid var(--primary-color);
 }
 
 .btn-style6 {
@@ -644,12 +633,12 @@
   position        : absolute;
   right           : 0;
   top             : 0;
-  padding         : 4% 4% 2% 4%;
+  padding         : 3% 3% 3% 3%;
   width           : 100%;
   max-width       : 540px;
   height          : 100%;
   overflow-y      : auto;
-  background-color: #ffffff;
+  background-color: #F7F0EA;
   z-index         : 999999;
 }
 
@@ -843,7 +832,7 @@ a.side-menu__toggler.side-menu__close-btn {
   max-width       : 680px;
   height          : 100%;
   overflow-y      : auto;
-  background-color: #ffffff;
+  background-color: #F7F0EA;
   z-index         : 999999;
 }
 
@@ -888,7 +877,7 @@ a.side-menu__toggler-help.side-menu__close-btn {
 }
 
 .btn-whatsapp:hover {
-  background-color: #1e1e1e;
+  background-color: var(--primary-color);
   color           : #FFFFFF;
 }
 
@@ -911,6 +900,6 @@ a.side-menu__toggler-help.side-menu__close-btn {
 }
 
 .btn-readmore:hover {
-  background-color: #1e1e1e;
+  background-color: var(--primary-color2);
   color           : #FFFFFF;
 }

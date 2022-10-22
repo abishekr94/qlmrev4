@@ -160,7 +160,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-opa
     line-height: 1;
 }
 
@@ -1370,7 +1369,7 @@ h6 a {
 }
 
 .tf-space {
-    padding: 10px 0;
+    padding: 84px 0;
 }
 
 .tf-space-appointment {
@@ -1475,6 +1474,7 @@ a:focus {
 }
 
 .link-style-4 a {
+    font-size: 14px;
     font-family: 'Mont-Regular', sans-serif;
     color             : #fff;
     -webkit-transition: all 0.3s ease-in-out;
@@ -1484,9 +1484,6 @@ a:focus {
     transition        : all 0.3s ease-in-out;
 }
 
-.link-style-4 a:hover {
-    color: #d9d9d9;
-}
 
 .link-style-5 a {
     color             : #fff;
@@ -1528,6 +1525,17 @@ a:focus {
 .read-more::before {
     content    : '\e909';
     font-family: 'icomoon';
+}
+
+.link-style-f a {
+    font-size: 22px;
+    font-family: 'Mont-Regular', sans-serif;
+    color             : #fff;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition   : all 0.3s ease-in-out;
+    -ms-transition    : all 0.3s ease-in-out;
+    -o-transition     : all 0.3s ease-in-out;
+    transition        : all 0.3s ease-in-out;
 }
 
 /* text global
@@ -2551,12 +2559,14 @@ a:focus {
 .breadcrumbs .breadcrumb-trail>a,
 .breadcrumbs .breadcrumb-trail>span {
     font-family: 'Mont-Semibold', sans-serif;
+    font-size: 14px;
     color: #1e1e1e;
     position     : relative;
     display      : inline-block;
     padding-right: 16px;
     margin-top   : 15px;
     margin-left: 14px;
+    transition: all 0.3s ease-in-out;
 }
 
 .breadcrumbs .breadcrumb-trail>span {
@@ -3054,6 +3064,7 @@ a:focus {
     padding      : 31px 36px 28px 32px;
     box-shadow   : 1px 7px 15px #b4b4b447;
     margin-bottom: 40px;
+    background-color: #FFFFFF;
 }
 
 .widget-title {
@@ -3527,10 +3538,10 @@ a:focus {
 
 .about-video {
     position        : absolute;
-    top             : 31px;
+    top             : 82px;
     right           : 29px;
-    width           : 60px;
-    height          : 60px;
+    width           : 80px;
+    height          : 80px;
     border-radius   : 50%;
     background-color: var(--primary-color3);
 }
@@ -3548,10 +3559,9 @@ a:focus {
 .qlm-about .about-right-content .about-counter-box,
 .qlm-about-2 .about-2-content-right .about-counter-box {
     position           : absolute;
-    bottom             : -28px;
-    left               : 54px;
+    bottom             : 254px;
     background-color   : var(--primary-color3);
-    padding            : 35px;
+    padding            : 28px;
     border-radius      : 8px;
     background-image   : url(../images/mark-page/mark-about-counter.png);
     background-repeat  : no-repeat;
@@ -3575,7 +3585,7 @@ a:focus {
 .qlm-about .about-counter-box .number-counter span,
 .qlm-about-2 .about-2-content-right .about-counter-box .number-counter span,
 .qlm-counter .about-counter-inner .number-counter span {
-    font-size  : 68px;
+    font-size  : 48px;
     font-family: 'Mont-Semibold', sans-serif;
     color      : #fff;
 }
@@ -3588,8 +3598,8 @@ a:focus {
 .qlm-about .about-counter-box .heading-count h3,
 .qlm-about-2 .about-2-content-right .about-counter-box .heading-count h3 {
     font-family: 'Mont-Semibold', sans-serif;
-    font-size  : 22px;
-    line-height: 28px;
+    font-size  : 18px;
+    line-height: 20px;
     color      : #fff;
 }
 
@@ -3984,7 +3994,7 @@ a:focus {
     position          : relative;
     overflow          : hidden;
     padding           : 19px 19px 42px 19px;
-    background-color  : rgb(247 247 247);
+    background-color  : rgb(255, 255, 255);
     border-radius     : 8px;
     -webkit-transition: all 0.3s ease;
     -moz-transition   : all 0.3s ease;
@@ -4002,8 +4012,15 @@ a:focus {
 .qlm-team .team-content-box .team-info h4 {
     font-family: 'Mont-Semibold', sans-serif;
     color: var(--primary-color);
-    margin     : 21px 0 7px 0;
-    font-size  : 20px;
+    margin     : 32px 0 14px 0;
+    font-size  : 22px;
+}
+
+.qlm-team .team-content-box .team-info p {
+    font-family: 'Mont-Regular', sans-serif;
+    color: #1e1e1e;
+    margin     : 21px 0 14px 0;
+    font-size  : 14px;
 }
 
 .qlm-team .team-content-box .team-info h5 {
@@ -4016,13 +4033,13 @@ a:focus {
     right           : 73px;
     width           : 75px;
     height          : 61px;
-    background-color: #F9E6E4;
+    background-color: #3f826d75;
     transform       : rotate(60deg);
 }
 
 .qlm-team .team-content-box .item-shape.item-shape2 {
     right           : 28px;
-    background-color: #F9ECEA;
+    background-color: #b4985a6c;
 }
 
 .qlm-team .bottom.item-shape,
@@ -4036,7 +4053,7 @@ a:focus {
     bottom            : -50px;
     left              : 0;
     right             : 0;
-    padding           : 7px 0;
+    padding           : 16px 0;
     background-color  : var(--primary-color);
     -webkit-transition: all 0.3s ease;
     -moz-transition   : all 0.3s ease;
@@ -4061,12 +4078,12 @@ a:focus {
 
 .qlm-team .team-content-box:hover .item-shape,
 .qlm-team .slide-active .item-shape {
-    background-color: var(--primary-color);
+    background-color: #3f826d;
 }
 
 .qlm-team .team-content-box:hover .item-shape.item-shape2,
 .qlm-team .slide-active .item-shape.item-shape2 {
-    background-color: #FB796A;
+    background-color: #b4975a;
 }
 
 .qlm-team .carousel-2 {
@@ -4075,13 +4092,13 @@ a:focus {
 
 .qlm-team .slide-active.team-content-box,
 .qlm-team .team-content-box:hover {
-    box-shadow: 0px 5px 17px #aa203a8c;
+    box-shadow: 2px 5px 12px #3030304a;
 }
 
 /* qlm subcribe
 -------------------------------------------------------------- */
 .qlm-subcribe {
-    background-color: rgb(248, 248, 248);
+    background-color: #F7F0EA;
 }
 
 .qlm-subcribe .subcribe-content {
@@ -5673,7 +5690,7 @@ a:focus {
     flex-wrap       : wrap;
     align-items     : center;
     justify-content : space-between;
-    background-color: rgb(248, 248, 248);
+    background-color: rgb(255, 255, 255);
     padding         : 0 62px;
     height          : 129px;
     border-radius   : 8px;
@@ -5689,7 +5706,7 @@ a:focus {
     left            : 15px;
     bottom          : -8px;
     border-radius   : 8px;
-    background-color: rgb(255 255 255 / 39%);
+    background-color: rgba(255, 255, 255, 0);
     z-index         : -1;
 }
 
@@ -6115,4 +6132,38 @@ a:focus {
     color: var(--primary-color);
     font-style: normal;
     margin: 0 0 16px 24px;
+}
+
+/* qlm visitor
+--------------------------------------------------------------  */
+.qlm-visitor {
+    background-image   : url(../images/mark-page/qlm-visitor.svg);
+    background-position: center;
+    background-repeat  : no-repeat;
+    background-size    : cover;
+    padding-bottom: 58px;
+    margin: 88px 0;
+}
+
+.qlm-visitor .section-title h2 {
+    margin-bottom: 26px;
+}
+
+.qlm-visitor .about-left-content p {
+    margin-bottom: 38px;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.qlm-visitor .about-left-content .progress-about {
+    padding      : 0;
+    padding-right: 21px;
+}
+
+.qlm-visitor .progress-about .couter .chart span.percent {
+    color: var(--primary-color);
+}
+
+.qlm-visitor .section-title p {
+    margin-top: 21px;
 }
