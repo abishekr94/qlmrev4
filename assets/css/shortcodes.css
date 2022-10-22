@@ -903,3 +903,11 @@ a.side-menu__toggler-help.side-menu__close-btn {
   background-color: var(--primary-color2);
   color           : #FFFFFF;
 }
+
+.readmore::after {
+  content: '\e904';
+  font-family: 'icomoon';
+  font-size: 18px;
+  margin-left: 7px;
+  vertical-align: bottom;
+}

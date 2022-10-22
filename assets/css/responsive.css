@@ -211,6 +211,7 @@
   .section-title h2 {
     font-size: 20px;
     margin-top: 2%;
+    margin-bottom: 2%;
   }
 
   .section-title h3.section-heading {
@@ -455,6 +456,15 @@
 
   #comments .comment-reply-box {
     margin-left: 10%;
-}
+  }
+
+  .qlm-about .about-right-content .about-counter-box {
+    display: none;
+  }
+
+  .about-video {
+    display: none;
+  }
+
   /* ------------------------------------------ */
 }

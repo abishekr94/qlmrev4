@@ -108,6 +108,10 @@
 }
 
 
+::selection {
+    color: #b4975a;
+}
+
 
 /* Reset Browsers
 -------------------------------------------------------------- */
@@ -1396,6 +1400,9 @@ h6 a {
     padding: 40px 10px;
 }
 
+.tf-space-plans {
+    padding: 30px 10px 10px 10px;
+}
 
 .tf-row {
     display          : -webkit-box;
@@ -1606,10 +1613,9 @@ a:focus {
 }
 
 .section-35px-barlow {
-    font-size     : 35px;
+    font-size     : 24px;
     font-family: 'Mont-Semibold', sans-serif;
     letter-spacing: 0;
-    font-weight   : 700;
     line-height   : 30px;
 }
 
@@ -1635,6 +1641,22 @@ a:focus {
     font-weight: 700;
     line-height: 22px;
     color      : var(--primary-color);
+}
+
+.detail-title-page h2 {
+    font-family: 'Mont-Semibold', sans-serif;
+    font-size  : 40px;
+    text-align: center;
+    padding-top: 142px;
+    color: var(--primary-color);
+}
+
+.detail-title-page p {
+    font-family: 'Mont-Semibold', sans-serif;
+    font-size  : 24px;
+    text-align: center;
+    padding: 12px 0 20px 0;
+    color: #1e1e1e);
 }
 
 
@@ -2490,16 +2512,16 @@ a:focus {
     }
 }
 
-/* qlm title page 
+/* top title page 
 --------------------------------------------------------------*/
 
-.qlm-title-page {
+.flat-title-page {
     position: relative;
     height  : auto;
 }
 
 .parallax-1 {
-    background-image: url(../images/background-section/mark-page-title.jpg);
+    background-image: url(../images/common/individual-banner.jpg);
 }
 
 .parallax-3 {
@@ -2507,7 +2529,7 @@ a:focus {
 }
 
 .parallax-4 {
-    background-image: url(../images/background-section/service-details-page-title@2x.jpg);
+    background-image: url(../images/image-slider/banner.jpg);
 }
 
 .parallax-5 {
@@ -2530,7 +2552,7 @@ a:focus {
     background-image: url(../images/background-section/contact-page-title@2x.jpg);
 }
 
-.qlm-title-page::after {
+.flat-title-page::after {
     content         : '';
     position        : absolute;
     top             : 0;
@@ -2541,7 +2563,7 @@ a:focus {
     border-top: 1px solid #1e1e1e15;
 }
 
-.qlm-title-page .breadcrumbs {
+.flat-title-page .breadcrumbs {
     margin    : 0 auto;
     padding   : 0 0 14px 0;
     color     : #fff;
@@ -2554,6 +2576,8 @@ a:focus {
     width      : 100%;
     text-align : center;
     font-size  : 16px;
+    background-color: rgb(247 240 234);
+    height: 42px;
 }
 
 .breadcrumbs .breadcrumb-trail>a,
@@ -2594,7 +2618,7 @@ a:focus {
 
 
 .qlm-blog {
-    padding: 22px 0 72px 0;
+    padding: 82px 0 72px 0;
 }
 
 .qlm-blog .post-wrap {
@@ -2776,8 +2800,9 @@ a:focus {
 
 .blog-single .post-title {
     padding    : 8px 0;
-    line-height: 54px;
-    font-family: 'Barlow', sans-serif;
+    line-height: 24px;
+    font-family: 'Mont-SemiBold', sans-serif;
+    color: var(--primary-color);
 }
 
 .blog-single .post-author {
@@ -2816,13 +2841,14 @@ a:focus {
 }
 
 .blog-single .post-author .post-author-inner a {
-    font-size     : 15px;
-    font-weight   : 500;
+    font-family         : 'Mont-SemiBold', sans-serif;
+    font-size         : 14px;
     text-transform: uppercase;
     line-height   : 27px;
 }
 
 .blog-single .post-author .post-author-inner span {
+    font-family         : 'Mont-SemiBold', sans-serif;
     font-size: 12px;
 }
 
@@ -3068,8 +3094,6 @@ a:focus {
 }
 
 .widget-title {
-    left: 4%;
-    font-weight: 500;
     position     : relative;
     color        : var(--primary-color);
     margin-bottom: 30px;
@@ -3107,7 +3131,8 @@ a:focus {
     background-color  : var(--primary-color);
     color             : #ffff;
     padding           : 14px;
-    border-radius     : 0;
+    margin-right: 16px;
+    border-radius     : 0 18px 18px 0;
     -webkit-transition: all ease 0.3s;
     -moz-transition   : all ease 0.3s;
     transition        : all ease 0.3s;
@@ -3118,6 +3143,7 @@ a:focus {
 }
 
 .widget-category .cat-item {
+    font-family         : 'Mont-SemiBold', sans-serif;
     font-size    : 16px;
     border-bottom: 1px solid var(--primary-color4);
     padding      : 18.4px 0;
@@ -3146,7 +3172,6 @@ a:focus {
 
 .widget-category .cat-item a::after {
     position          : absolute;
-    content           : '\f101';
     font-family       : 'FontAwesome';
     top               : 50%;
     transform         : translateY(-50%);
@@ -3993,7 +4018,7 @@ a:focus {
 .qlm-team .team-content-box {
     position          : relative;
     overflow          : hidden;
-    padding           : 19px 19px 42px 19px;
+    padding           : 19px 19px 82px 19px;
     background-color  : rgb(255, 255, 255);
     border-radius     : 8px;
     -webkit-transition: all 0.3s ease;
@@ -4014,6 +4039,7 @@ a:focus {
     color: var(--primary-color);
     margin     : 32px 0 14px 0;
     font-size  : 22px;
+    text-align: center;
 }
 
 .qlm-team .team-content-box .team-info p {
@@ -4021,13 +4047,39 @@ a:focus {
     color: #1e1e1e;
     margin     : 21px 0 14px 0;
     font-size  : 14px;
+    text-align: center;
 }
 
 .qlm-team .team-content-box .team-info h5 {
     font-family: 'Mont-Regular', sans-serif;
     font-size  : 15px;
     font-weight: 400;
+    margin-bottom: 18px;
+    text-align: center;
+    border-bottom: solid 1px #1e1e1e0f;
+    padding: 0 0 18px 0;
 }
+
+.qlm-team .team-content-box .team-info li {
+    font-family: 'Mont-Regular', sans-serif;
+    display: block;
+    font-size: 14px;
+    color: var(--primary-color6);
+    padding: 6px 0 6px 0;
+    line-height: 22px;
+    text-align: center;
+}
+
+.qlm-team .team-content-box .team-info li>span {
+    font-family: 'Mont-Semibold', sans-serif;
+    display: block;
+    font-size: 14px;
+    color: var(--primary-color);
+    padding: 4px 0 4px 0;
+    line-height: 22px;
+    text-align: center;
+}
+
 
 .qlm-team .team-content-box .item-shape {
     right           : 73px;
@@ -4470,7 +4522,7 @@ a:focus {
     content    : '\f00c';
     font-family: 'FontAwesome';
     color      : var(--primary-color);
-    font-size  : 20px;
+    font-size  : 12px;
 }
 
 .qlm-about-2 .about-2-content-left .content-box {
@@ -4894,7 +4946,7 @@ a:focus {
     height          : 28px;
     line-height     : 28px;
     margin-right    : 13px;
-    background-color: var(--primary-color);
+    background-color: var(--primary-color2);
     flex-shrink: 0;
 }
 
@@ -4929,12 +4981,12 @@ a:focus {
     padding      : 17px 29px;
     border       : 1px solid var(--primary-color);
     margin-bottom: 19px;
-    border-radius: 6px;
+    border-radius: 20px;
 }
 
 .qlm-service-details .side-bar .list-menu li a {
-    font-size  : 20px;
-    font-family: 'Barlow', sans-serif;
+    font-size  : 18px;
+    font-family     : 'Mont-Regular', sans-serif;
     font-weight: 700;
     color      : var(--primary-color6);
 }
@@ -4947,8 +4999,8 @@ a:focus {
     line-height       : 54px;
     height            : 100%;
     background-color  : var(--primary-color);
-    width             : 76px;
-    border-radius     : 0 6px 6px 0;
+    width             : 46px;
+    border-radius     : 0 16px 16px 0;
     z-index           : -1;
     -webkit-transition: all 0.3s ease;
     -moz-transition   : all 0.3s ease;
@@ -4961,7 +5013,7 @@ a:focus {
 .qlm-faq .faq-content .readmore::after {
     position : absolute;
     color    : #fff;
-    right    : 27px;
+    right    : 14px;
     top      : 50%;
     transform: translateY(-50%);
 }
@@ -4969,6 +5021,7 @@ a:focus {
 .qlm-service-details .side-bar .list-menu li:hover .readmore,
 .qlm-service-details .side-bar .list-menu li.active .readmore {
     width: 100%;
+    border-radius: 18px;
 }
 
 .qlm-service-details .side-bar .list-menu li:hover a,
@@ -4978,8 +5031,9 @@ a:focus {
 
 .qlm-service-details .side-bar .section-title-service h2 {
     position   : relative;
-    font-size  : 24px;
-    font-family: 'Barlow', sans-serif;
+    font-size  : 22px;
+    font-family: 'Mont-Semibold', sans-serif;
+    color: var(--primary-color);
 }
 
 .qlm-service-details .side-bar .section-title-service h2::after {
@@ -4989,7 +5043,6 @@ a:focus {
     position        : absolute;
     height          : 1px;
     width           : 42%;
-    background-image: linear-gradient(90deg, #aa203a, #aa203a 75%, transparent 75%, transparent 100%);
     background-size : 6px 1px;
     border          : none;
     margin          : 0;
@@ -5060,17 +5113,17 @@ a:focus {
 
 .qlm-service-details .side-bar .brochures li {
     padding      : 18px 29px;
-    border       : 1px solid #DBDBDB;
-    border-radius: 6px;
+    background-color: #FFFFFF;
+    border-radius: 28px;
     margin-bottom: 20px;
 }
 
 .qlm-service-details .side-bar .brochures li a {
     position    : relative;
     font-size   : 18px;
-    font-family : 'Barlow', sans-serif;
-    font-weight : 700;
+    font-family: 'Mont-Semibold', sans-serif;
     padding-left: 47px;
+    color: var(--primary-color);
 }
 
 .qlm-service-details .side-bar .brochures .icon {
@@ -6116,6 +6169,14 @@ a:focus {
 .code-timer > span {
     color: var(--primary-color);
     margin: 0 0 16px 4px;
+}
+
+.form-heading h2 {
+    font-family: 'Mont-SemiBold', sans-serif;
+    font-size: 34px;
+    color: var(--primary-color);
+    font-style: normal;
+    margin: 0 0 36px 0px;
 }
 
 .form-heading h3 {
